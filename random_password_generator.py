@@ -13,7 +13,7 @@ import random
 import string
 
 def generate_password():
-    """"""
+    """generates random password based on user preference"""
     length = int(input("Enter the desired length for your password:\n").strip())
     include_uppercase = input("Include uppercase letters? (yes/no): ").strip().lower()
     include_special = input("Include special characters? (yes/no): ").strip().lower()
